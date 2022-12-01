@@ -1,0 +1,36 @@
+body		{margin-left:auto;
+			margin-right:auto;
+			background-color: lightblue;}
+
+.intro { 
+			font-weight: bolder;
+			color: black;
+			margin-left: 5%;
+			padding: .1em;
+			margin-bottom: 0.2em;
+			width: 50%;
+		}
+
+
+img	{
+	width: 37%;
+	height: 35%;
+}
+
+textarea {resize: none;}
+
+@media screen{
+			body {
+				background-color: lightblue ;
+			}
+		}
+@media screen and (max-width: 1080px){
+	body{
+		background-color: lightpink;
+	}
+}
+@media print{
+			body{
+				background-color:lightyellow ;
+			}
+			}
